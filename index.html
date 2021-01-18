@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div id="popup" class="popup__wrapper">
+    <div class="popup__container">
+      <h1 class="popup__title">Thank you for visiting!</h1>
+      <p>Have a wonderful day 💁</p>
+    </div>
+  </div>
+
+  <h1 class="text-center mb-4">LA FELICIDAD</h1>
+
+  <div class="tabContainer">
+    <div class="buttonContainer">
+      <button onclick="showPanel(0, 'antiquewhite')">Concept</button>
+      <button onclick="showPanel(1, 'antiquewhite')">Menu</button>
+      <button onclick="showPanel(2, 'antiquewhite')">Photos</button>
+    </div>
+
+    <div class="tabPanel">
+      <img class="img-food" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1470&q=80"/>
+      <h2 class="text-center mt-3">Veggie & Friendly Food</h2>
+      <br>
+    </div>
+
+    <div class="tabPanel pb-5">
+      <h4 id="menuDisplay">des clous</h4>
+      <button id="menu-random">Marre de ce menu ? Changez-le !</button>
+    </div>
+
+    <div class="tabPanel img-photo">
+      <div class="row">
+        <div class="col-6 mb-4">
+          <img class="img-food" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80"/>
+        </div>
+        <div class="col-6 mb-4">
+          <img class="img-food" src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"/>
+        </div>
+        <div class="col-6">
+          <img class="img-food" src="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1268&q=80"/>
+        </div>
+        <div class="col-6">
+          <img class="img-food" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

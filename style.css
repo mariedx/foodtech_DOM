@@ -1,0 +1,96 @@
+.img-food {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.tabContainer {
+  height: auto;
+}
+
+.buttonContainer button {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: wheat;
+}
+
+.buttonContainer button:hover {
+  background-color: antiquewhite;
+}
+
+.tabPanel {
+  height: 85%;
+  background-color: antiquewhite;
+  text-align: center;
+  box-sizing: border-box;
+  display: none;
+}
+
+/*Menu tab*/
+#menuDisplay {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 35%;
+  padding-right: 35%;
+  letter-spacing:0.2em;
+}
+
+#menu-random {
+  width: 30%;
+  border-radius: 10px;
+  border: 1px grey dotted;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/*popup*/
+* {
+  box-sizing: border-box;
+}
+
+#popup {
+  display: none;
+}
+
+.popup__wrapper {
+  background: rgba(0, 0, 0, .75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.popup__container {
+  background: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 100px auto;
+  max-width: 100%;
+  padding: 20px;
+  width: 500px;
+}
+
+.popup__title {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+/*photo tab*/
+.img-photo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
